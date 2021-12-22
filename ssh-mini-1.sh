@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 envup() {
   local file=$([ -z "$1" ] && echo ".env" || echo ".env.$1")
